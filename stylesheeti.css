@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#videolayout{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+section{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.citytext{
+    position: relative;
+    /* top: 90px; */
+    /* bottom: 10px; */
+}
+.logo{
+    position: relative;
+    top: 50px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#btn{
+    position: relative;
+    top: 15px;
+}
+.citytext h1{
+  font-size: 4em;
+  
+}
+.citytext p{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+.citytext button{
+    width: 200px;
+    height: 70px;
+    font-size: 1.3em;
+    background-color: transparent;
+    color: white;
+    border-radius: 10%;
+    border-color: white;
+    margin: 10px;
+}
+.citytext button:hover{
+    background-color: rgb(91, 192, 222);
+    color: black;
+}
+@media only screen and (max-width: 600px){
+    .citytext h1{
+        font-size: 2em;
+    }
+    .citytext p{
+        font-size: 1em;
+    }
+    .citytext button{
+        font-size: 1em;
+    }
+}
